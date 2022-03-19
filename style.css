@@ -94,3 +94,26 @@ header nav a:hover {
 .main-film .container {
     width: 60%;
 }
+
+/* carousel */
+.main-carousel {
+    margin: 0;
+}
+
+.box {
+    width: 270px;
+    height: 400px;
+    margin: 0 0 0 .70rem;
+    /* box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.10); */
+}
+
+.box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.flickity-page-dots .dot.is-selected {
+    background: rgba(255, 255, 255, 0.733);
+  }
