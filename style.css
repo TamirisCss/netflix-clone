@@ -91,14 +91,17 @@ header nav a:hover {
     margin-right: 8px;
 }
 
-.main-film .container {
+/* .main-film .container {
+    width: 60%;
+} */
+.description {
     width: 60%;
 }
 
 /* carousel */
-.main-carousel {
-    /* margin: 0 1rem; */
-}
+/* .main-carousel {
+    margin: 0 1rem;
+} */
 
 .box {
     width: 270px;
@@ -116,4 +119,33 @@ header nav a:hover {
 
 .flickity-page-dots .dot.is-selected {
     background: rgba(255, 255, 255, 0.733);
-  }
+}
+
+/* Mobile friendly */
+@media screen and (max-width: 700px){
+    header .container {
+        display: flex;
+        flex-direction: column;
+    }
+    nav {
+        margin-bottom: 1rem;
+    }
+    .description {
+        width: 90%;
+    }
+    .main-carousel {
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width: 440px){
+    .btns {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .btn {
+        width: 200px;
+    }
+}
+
